@@ -16,43 +16,40 @@ body {
   background: white;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  width: 90%;
-  max-width: 400px;
-}
-
-.upload-section {
-  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .upload-label {
   font-size: 16px;
-  display: block;
-  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 #upload {
-  font-size: 14px;
+  margin: 10px 0;
 }
 
 button {
-  background-color: #007bff;
+  background-color: #007BFF;
   color: white;
   border: none;
   padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
   font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 10px;
 }
 
 button:hover {
   background-color: #0056b3;
 }
 
-.photo-display img {
+.photo-display {
   margin-top: 20px;
+}
+
+.photo-display img {
   max-width: 100%;
-  max-height: 300px;
+  height: auto;
   border: 2px solid #ddd;
   border-radius: 8px;
 }
